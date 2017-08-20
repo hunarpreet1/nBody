@@ -58,8 +58,8 @@ int main(const int argc, const char** argv) {
   int nBodies = 4096	;
   if (argc > 1) nBodies = atoi(argv[1]);
 
-  const float dt = 0.01f; // time step
-  const int nIters = 10;  // simulation iterations
+//   const float dt = 0.01f; // time step
+//   const int nIters = 10;  // simulation iterations
 
   int bytes = nBodies*sizeof(Body);
   float *buf = (float*)malloc(bytes);
